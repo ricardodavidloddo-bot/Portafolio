@@ -39,6 +39,6 @@ window.addEventListener("load", ()=>{
 
 
     setTimeout(()=>{
-        intro.style.top = "-100%"
+        intro.style.top = "-200%"
     }, 3000)
 })
