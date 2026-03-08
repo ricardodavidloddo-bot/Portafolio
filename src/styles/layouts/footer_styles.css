@@ -1,0 +1,27 @@
+footer {
+  margin: 0;
+  border-top: solid 2px var(--color-resaltado);
+
+  width: 100%;
+  height: 80px;
+
+  background-color: var(--color-background2);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_title {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+.footer_text {
+  font-size: 12px;
+  margin: 0;
+
+  opacity: 0.8;
+}

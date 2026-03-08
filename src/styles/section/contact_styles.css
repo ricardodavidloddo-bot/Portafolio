@@ -1,0 +1,85 @@
+.contact_target {
+  width: 80%;
+  height: 75px;
+  margin: auto;
+  margin-top: 30px;
+
+  background-color: var(--color-resaltado);
+  color: var(--color-background);
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 800ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+  outline: 2px solid var(--color-resaltado);
+  outline-offset: 0px;
+}
+
+.contact_target:hover {
+  background-color: var(--color-texto);
+  outline: 3px solid var(--color-texto);
+  outline-offset: 10px;
+  transform: scale(1.05);
+}
+
+.contact_img {
+  height: 70%;
+  width: 55px;
+}
+
+.contact_link {
+  color: var(--color-background);
+}
+
+.contact_target_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.gmail {
+  grid-column: span 2;
+}
+
+@media (max-width: 992px) {
+  .contact_target {
+    width: 250px;
+    height: 65px;
+  }
+
+  .contact_img {
+    height: 60%;
+    width: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .contact_target {
+    width: 120px;
+    height: 65px;
+    font-size: 12px;
+    flex-direction: column;
+  }
+
+  .contact_img {
+    height: 48%;
+    width: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .contact_target {
+    width: 80%;
+    height: 75px;
+    margin: auto;
+  }
+
+  .contact_img {
+    height: 48%;
+    width: 30px;
+  }
+}
+@media (max-width: 375px) {
+}
