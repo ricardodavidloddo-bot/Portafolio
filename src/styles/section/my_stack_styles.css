@@ -53,6 +53,20 @@ i {
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
+  .mystack_target_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+  }
+  .stack_target {
+    width: 80px;
+    height: 80px;
+  }
+
+  i {
+    font-size: 30px;
+  }
 }
 @media (max-width: 576px) {
   .mystack_target_content {
